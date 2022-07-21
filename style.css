@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bk8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1.25rem;
+    text-align: center;
+    height:calc(100vh - 0.1px);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Manrope", "sans-serif";
+}
+.container{
+    background-color: rgba(124, 140, 171, 0.635);
+    padding: 1.25rem;
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+p{
+    font-size:28px;
+    line-height: 1.5;
+    color: #13252b;
+    font-weight: 800;
+   
+}
+h3{
+    text-transform: uppercase;
+    margin-bottom:1rem;
+    font-weight: 800;
+    color: #263337;
+}
+.divider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.btn{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  
+}
+@media only screen and (max-width: 700px) {
+    .container {
+      width: 90%;
+    }
+  }
